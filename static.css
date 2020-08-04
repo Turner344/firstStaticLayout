@@ -1,0 +1,188 @@
+body {
+    height: 200vh;
+    margin: 0;
+    font-family: 'Graphik', Helvetica, Arial;
+}
+
+.login {
+    background-color: transparent;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Graphik', Helvetica, Arial;
+    font-weight: bold;
+}
+
+.login:visited{
+    color: white;
+
+}
+
+.login:hover{
+    color: lightgray;
+}
+
+.mainbackground {
+    position: absolute;
+    background-image: url(https://www.hulu.com/static/hitch/s3/2020-06/Homepage_Masthead_Test_DESKTOP_3200x1320-v4c_6.16.20.jpg?t.h4WwAhD1rrl9t1M_SYrNCgeYS_ON48);
+    background-size: 120em;
+    height: 40em;
+    width: 100%;
+    z-index: 0;
+}
+.huluimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.blueribbon {
+    background-image: linear-gradient(90deg, rgba(8,20,31,1) 0%, rgba(13,54,64,1) 49%, rgba(15,73,92,1) 100%);
+    background-size: 200em;
+    top: 10em;
+    height: 50em;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#free {
+    position: absolute;
+    left: 72em;
+    top: 11em;
+    font-size: 12px;
+    font-family: 'Graphik', Helvetica, Arial;
+    color: rgb(60, 214, 181);
+}
+
+#cost {
+    position: absolute;
+    top: 13em;
+    left: 28em;
+    width: 30em;
+    border-style: solid;
+    border-color: transparent;
+    text-align: center;
+    font-family: 'Graphik', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+#addons {
+    position: absolute;
+    top: 22em;
+    left: 43em;
+    font-size: 16px;
+    color: white;
+}
+
+.bottomimg {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100em;
+    top: 50em;
+    left: 10em;
+}
+
+.trial {
+    border: 1px black;
+    border-radius: 5px;
+    position: absolute;
+    width: 14em;
+    height: 1em;
+    background-color: white;;
+    padding: 22px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    left: 60em;
+    top: 30em;
+}
+
+.trial:hover{
+    color: lightgray;
+}
+
+.trial:visited {
+    color: black;
+}
+
+#transparent {
+    position: absolute;
+    color: white;
+    opacity: 45%;
+    font-size: 11px;
+    top: 44em;
+    left: 75em;
+}
+
+.disneybox {
+    position: absolute;
+    top: 42em;
+    left: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+#disneyimg {
+    position: absolute;
+    left: 15em;
+    top: 42em;
+}
+
+#bundle {
+    position: absolute;
+    color: rgb(60, 214, 181);
+    font-size: 13px;
+    font-weight: bold;
+    top: 51em;
+    left: 54em;
+}
+
+#bundlecost {
+    position: absolute;
+    color: white;
+    font-size: 28px;
+    top: 24em;
+    left: 25em;
+}
+
+#details {
+    color: white;
+    font-size: 13px;
+    text-decoration: underline;
+    opacity: 40%;
+}
+
+.bundlebutton {
+    position: absolute;
+    border: solid 3px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    left: 85em;
+    top: 1em;
+    width: 8em;
+    font-weight: bolder;
+}
+
+.terms {
+    position: absolute;
+    color: white;
+    opacity: 40%;
+    text-decoration: underline;
+    font-size: 13px;
+    left: 1411px;
+    top: 99px;
+    white-space: nowrap;
+}
