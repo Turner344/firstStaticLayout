@@ -186,3 +186,66 @@ a {
     top: 99px;
     white-space: nowrap;
 }
+
+.flex-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 108em;
+    color: black;
+  }
+
+  .flex-container > div {
+    background-color: white;
+    width: 600px;
+    margin: 15px;
+    text-align: center;
+    line-height: 35px;
+  }
+
+
+  .getPlan1 {
+    border: 1px black;
+    border-radius: 5px;
+    position: absolute;
+    width: 14em;
+    height: 2em;
+    background-color: black;;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    left: 45em;
+    top: 7em;
+}
+
+.getPlan1:hover{
+    color: black;
+}
+
+.getPlan1:visited {
+    color: lightgray;
+}
+
+.getPlan2 {
+    border: 1px black;
+    border-radius: 5px;
+    position: absolute;
+    width: 14em;
+    height: 2em;
+    background-color: black;;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    left: 80em;
+    top: 7em;
+}
+
+.getPlan2:hover{
+    color: black;
+}
+
+.getPlan2:visited {
+    color: lightgray;
+}
